@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import hoobank from "../../Assets/Projects/hoobank.png";
 import twitter from "../../Assets/Projects/twitter.png";
 import tesla from "../../Assets/Projects/tesla.png";
-import headphone from "../../Assets/Projects/headphones.png";
+import Ecommcerce from "../../Assets/Projects/headphones.png";
 
 
 function Projects() {
@@ -24,8 +24,8 @@ function Projects() {
             <ProjectCard
               imgPath={hoobank}
               isBlog={false}
-              title="Futuristic Website of a Bank"
-              description=""
+              title="Website of a Futuristic Bank"
+              description="Built with React, used tailwind-css for styling and added responsiveness."
               ghLink=""
               demoLink= "https://hoobank-three-theta.vercel.app"
             />
@@ -35,8 +35,8 @@ function Projects() {
             <ProjectCard
               imgPath={twitter}
               isBlog={false}
-              title="Twitter"
-              description=""
+              title="Twitter Clone"
+              description="In progress..."
               ghLink="https://github.com/santiagorao12/twitter-clone"
               demoLink=""
             />
@@ -47,8 +47,8 @@ function Projects() {
             <ProjectCard
               imgPath={tesla}
               isBlog={false}
-              title="Tesla"
-              description=""
+              title="Tesla Clone"
+              description="Built with React,Redux for state management,Material UI for icons and React-reveal for Customization."
               ghLink="https://github.com/santiagorao12/tesla"
               demoLink="https://aquamarine-pudding-4cdc8d.netlify.app/"
             />
@@ -56,10 +56,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={headphone}
+              imgPath={Ecommcerce}
               isBlog={false}
-              title="headphone"
-              description=""
+              title="Ecommerce Store for Audio Devices"
+              description="Built with React, tailwind-css for styling and Stripe for payment gateway support"
               ghLink="https://github.com/santiagorao12/ecommerce/tree/master"
               demoLink="https://ecommerce-beige-two.vercel.app/"
             />
