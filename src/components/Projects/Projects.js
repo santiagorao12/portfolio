@@ -42,24 +42,24 @@ function Projects() {
             />
           </Col>
 
-          
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={tesla}
-              isBlog={false}
-              title="Tesla Clone"
-              description="Built with React,Redux for state management,Material UI for icons and React-reveal for Customization."
-              ghLink="https://github.com/santiagorao12/tesla"
-              demoLink="https://aquamarine-pudding-4cdc8d.netlify.app/"
-            />
-          </Col>
+  <ProjectCard
+    imgPath={tesla}
+    isBlog={false}
+    title="Tesla Clone"
+    description="Built with React, Redux for state management, Material UI for icons and React-reveal for Customization."
+    ghLink="https://github.com/santiagorao12/tesla"
+    demoLink="https://aquamarine-pudding-4cdc8d.netlify.app/"
+  />
+</Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Ecommcerce}
               isBlog={false}
               title="Ecommerce Store for Audio Devices"
-              description="Built with React, tailwind-css for styling and Stripe for payment gateway support"
+              description="Built with React, tailwind-css for styling and Stripe for payment gateway support."
               ghLink="https://github.com/santiagorao12/ecommerce/tree/master"
               demoLink="https://ecommerce-beige-two.vercel.app/"
             />
